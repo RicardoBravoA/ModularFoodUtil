@@ -1,0 +1,3 @@
+include ':app', ':util', ':model'
+project(":model").projectDir = file("../ModularFoodModel/model")
+rootProject.name='ModularFoodUtil'
