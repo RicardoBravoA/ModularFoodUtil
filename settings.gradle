@@ -1,3 +1,2 @@
-include ':app', ':util', ':model'
-project(":model").projectDir = file("../ModularFoodModel/model")
+include ':app', ':util'
 rootProject.name='ModularFoodUtil'
